@@ -1,4 +1,47 @@
-reglas generales
+.hero{
+    text-align: center;
+}
+
+
+#producto1 .container{
+display: flex;
+justify-content: center;
+}
+
+#producto1 .texto{
+    width: 30%;
+    text-align: center;
+    background-color: blue;
+}
+
+#producto1 .imagen{
+    width: auto;
+    height: auto;
+}
+
+#producto2y3 .container{ 
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+#producto2y3 .seccion1{
+    width: 50%;
+    
+}
+
+#producto2y3 .texto1{
+background-color: blue;
+}
+
+#producto2y3 .seccion2{
+    width: 50%;
+}
+
+#producto2y3 .texto2{
+    background-color: blue;
+}
+s
+generales
 
 * Media Query
 
