@@ -19,27 +19,39 @@ justify-content: center;
     height: auto;
 }
 
-#producto2y3 .container{ 
+#producto2y3 .container{
     display: flex;
+    text-align: center;
     justify-content: center;
-    margin: 0px 10px;
+    align-items: center;
+    min-height: 100vh;
+   
+    
 }
-#producto2y3 .seccion1{
-    width: 50%;
+    
+#producto2y3 .image1{
+    margin-right: 10px;
+    
+   
+}
+
+#producto2y3 .image2{
+    margin-left: 10px;
     
 }
 
-#producto2y3 .texto1{
-background-color: blue;
+#producto2y3 .text1{
+    
+
 }
 
-#producto2y3 .seccion2{
-    width: 50%;
+#producto2y3 .text2{
+    
+    
 }
 
-#producto2y3 .texto2{
-    background-color: blue;
-}
+
+
 s
 generales
 
@@ -48,3 +60,7 @@ generales
 * Reescribir colores 
 
 * Productos 
+/*justify-content: center;
+    margin-right: 10px;
+    justify-content: center;
+    margin-left: 10px;
