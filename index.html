@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,137 +13,167 @@
 </head>
 <body>
     <header>
-        <h1>TIENDA DE <span style="color: #037bc0;"> MUEBLES</span></h1>
+        <h1>TIENDA DE <span> MUEBLES</span></h1>
     </header>
-    <nav>
+
+    
+    <nav class="navbar">
+        
             <a href="#">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Tienda</a>
             <a href="#">Blog</a>
             <a href="#">Galeria</a>
             <a href="#">Contactos</a>
+        
     </nav>
 
+<br>
     <div class="hero">
-    
-        <h2>Productos</h2></div>
-  
-        <section id="producto1">
-
-         <div class="container">
-            <img class="imagen" src="producto1.jpg" >
-            <div class="texto">     
-       <h3>Producto 1</h3>
-        <p>Descripcion del producto 1</p>
-        <p>$12,000</p>
-        <button> Agregar al carrito</button></div>
+        <img src="principal.jpg" alt="">
     </div>
 
+<br>
+
+        <div class="title"><h2>Productos</h2></div>
+<section class="flex-container">
+    <section id="producto1">
+
+    <div class="container">
+            <img class="imagen" src="producto1.jpg" width="900" >
+
+        <div class="texto">     
+            <h3>Producto 1</h3>
+            <p>Descripcion del producto 1</p>
+            <p>$12,000</p>
+            <button> Agregar al carrito</button></div>
+    </div>
     </section>
    
-<section id="producto2y3">
-    <div class="container">
-        <div>
-            <img class="image1" src="producto2.jpg" width="700" alt="">
-            <div class="text1">
-                <h3>Producto 2</h3>
-                <p>Descripcion del producto 2</p>
-                <p>$12,000</p>
-                <button> Agregar al carrito</button>
-            </div>
-        </div>
+<br>
+<br>
 
-        <div>
-            <img class="image2" src="producto3.jpg" width="700" alt="">
-            <div class="text2">
-                <h3>Producto 3</h3>
-                <p>Descripcion del producto 3</p>
-                <p>$12,000</p>
-                <button> Agregar al carrito</button>
-            </div>
-        </div>
+<section id="section2">
+    <div class="container">
+
+    <div class="card1">
+            <img src="producto2.jpg" width="610" alt="">
+            <h3>Producto 2</h3>
+            <p>Descripcion del producto 2</p>
+            <p>$12,000</p>
+            <button> Agregar al carrito</button>
+    </div>
+
+    <div class="card2">
+        <img src="producto3.jpg" width="610" alt="">
+        <h3>Producto 3</h3>
+            <p>Descripcion del producto 3</p>
+            <p>$12,000</p>
+            <button> Agregar al carrito</button>
+    </div>
     </div>
 </section>
 
-<section id="producto4al6">
+<br>
+<br>
+
+<section id="section3">
 
     <div class="container">
+<div class="card1">
+    <img src="producto4.jpg" width="405"  alt="">
+    <h3>Producto 4</h3>
+    <p>Descripcion del producto 4</p>
+    <p>12,000</p>
+    <button>Agregar al carrito</button>
+</div>
+        
+<div class="card2">
+    <img src="producto5.jpg" width="405" alt="">
+    <h3>Producto 5</h3>
+    <p>Descripcion del producto 5</p>
+    <p>12,000</p>
+    <button>Agregar al carrito</button>
+</div>
 
-        <img src="producto4.jpg">
-        <div class="texto"><h3>Producto 4</h3>
-            <p>Descripcion del producto 4</p>
-            <p>$12,000</p>
-            <button> Agregar al carrito</button></div>
-   
-
-    
-        <img src="producto5.jpg">
-        <div class="texto"><h3>Producto 5</h3>
-            <p>Descripcion del producto 5</p>
-            <p>$12,000</p>
-            <button> Agregar al carrito</button></div>
-    
-
-  
-        <img src="producto6.jpg">
-       <div class="texto"><h3>Producto 6</h3>
-            <p>Descripcion del producto 6</p>
-            <p>$12,000</p>
-            <button> Agregar al carrito</button></div>
-    </div> 
-
+<div class="card3">
+    <img src="producto6.jpg" width="405" alt="">
+    <h3>Producto 6</h3>
+    <p>Descripcion del producto 6</p>
+    <p>12,000</p>
+    <button>Agregar al carrito</button>
+</div>
+</div> 
 </section>
+<br>
+<br>
+    <div class="title"><h2>Categorias de productos</h2>
+    </div>
 
-<section>
-    <h2>Categorias de productos</h2>
-        <div> 
-            <img src="categoria1.jpg" height="250" width="250">
+    <section id="categorias">
+
+        <div class="container"> 
+            <div class="categories">
+            <img src="categoria1.jpg" width="405">
             <h3>Oficina</h3>
         </div>
 
-    <div>  
-            <img src="categoria2.jpg" height="250" width="250">
+    <div class="categories">  
+            <img src="categoria2.jpg" width="405">
             <h3>Hogar</h3>
     </div>
 
-        <div>
-            <img src="categoria3.jpg" height="250" width="250">
+        <div class="categories">
+            <img src="categoria3.jpg" width="405">
           <h3>Cocina</h3>  
         </div>
 
+    </div>
 </section>
+</section> 
 
-    <footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Categorias</h3>
+                    <nav>
+                    <ul><b>
+                        <li> <a href="#">Cocina</a></li>
+                        <li> <a href="#">Oficina</a></li>
+                        <li> <a href="#">Jardin</a></li>
+                        <li> <a href="#">Cochera</a></li>
+                        <li> <a href="#">Dormitorios</a></li></b>
+                    </ul>
+                </nav></div>
 
-            <div>
+                <div class="footer-col">
+                    <h3>Sobre nosotros</h3>
+                    <nav>
+                    <ul><b>
+                        <li> <a href="#">Nuestra Historia</a></li>
+                        <li> <a href="#">Mision</a></li>
+                        <li> <a href="#">Vision y Valores</a></li>
+                        <li> <a href="#">Carrera</a></li>
+                        <li> <a href="#">Politicas de Privacidad</a></li>
+                        <li> <a href="#">Terminos del Servicio</a></li></b>
+                    </ul>
+                </nav></div>
+
+            <div class="footer-col">
+                <h3>Soporte</h3>
                 <nav>
-    <h3>Categorias</h3>
-    <a href="#">Cocina</a>
-    <a href="#">Oficina</a>
-    <a href="#">Jardin</a>
-    <a href="#">Cochera</a>
-    <a href="#">Dormitorios</a>
-</nav>
-</div>
-
-<div>
-          <h3>Sobre Nosotros</h3>
-            <a href="#">Nuestra Historia</a>
-            <a href="#">Mision</a>
-            <a href="#">Visio</a>
-            <a href="#">Valores</a>
-            <a href="#">Carrera</a>
-            <a href="#"> Politicas de Privacidad</a>
-            <a href="#">Terminos del Servicio</a>
-</div>
-            
-            <div>
-            <h3>Soporte</h3>
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">Ayuda en linea</a>
-            <a href="#">Confianza y seguridad</a>
+                <ul>
+                    <b>
+                    <li> <a href="#">Preguntas frecuentes</a></li>
+                    <li> <a href="#">Ayuda en Linea</a></li>
+                    <li> <a href="#">Confianza y Seguridad</a></li></b>
+                </ul>
+              </nav></div>
             </div>
-
+        </div>
+    </div>
+            
     </footer>
 
 </body>
@@ -151,17 +181,15 @@
 </html>
 
 
-height="250" width="250"
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
-<div class="container">
-        
-    <img src="producto2.jpg" width="550">
 
-    <div class="texto1">
-       </div>    
-    
-    <img src="producto3.jpg" width="550">
-        <div class="texto2"></div>
-         
-     </div>
+
+
