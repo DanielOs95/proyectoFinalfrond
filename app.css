@@ -43,34 +43,26 @@ h3{
 }
 
 
-.navbar{
-    display: flex;
-    justify-content: center;
+nav ul{
+    display: flex; 
+    justify-content: space-between;
 }
 
-
-.navbar a{
-    padding: 0 20px;
+nav a{
     text-decoration: none;
 }
 
-.navbar a:hover{
-    background-color: blueviolet;
+nav a:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 4px black;
 }
-
-
 
 
 
 
 .hero{
-    position: relative;
-    background-size: cover;
-    height: 500px;
-    overflow: hidden;
-    justify-content: center;
-    background-image: none;
-    
+   width: 100%;
+
 }
 
 
@@ -79,18 +71,16 @@ h3{
 
 #producto1 .container{
 display: flex;
-justify-content: center;
-width: 50%;
 }
 
 #producto1 .texto{
-    width: 50%;
+    width: 30%;
     text-align: center;
     background-color: blue;
 }
 
 #producto1 .imagen{
-    width: auto;
+    width: 70%;
     height: auto;
 }
 
@@ -146,72 +136,24 @@ width: 50%;
 
 #categorias .categories{
     text-align: center;
-    
+    text-decoration: none;
 }
 
 
 
-    
 
- .container{
-    max-width: 1170px;
-    margin: auto;
- }
-
- .row{
+.footer{
     display: flex;
-    flex-wrap: wrap;
- }
-ul{
-    list-style: none;
-}
-
- .footer{
-padding: 70px 0;
- }
-
- .footer-col{
-    width: 25%;
-    padding: 0 15px;
- }
-
-.footer-col h3{
-    font-size: 18px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
     text-align: center;
+    justify-content: space-between;
 }
 
-.footer h3::before{
-    content: '';
-    position: absolute;
-    left:0;
-    bottom: -10px;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a{
-   font-size: 16px;
-   text-transform: capitalize;
+.navf li a{
    text-decoration: none;
-   font-weight: 300;
-   display: block;
-   transition: all 0.3 ease;
-   text-align: center;
 }
+ 
 
-.footer-col ul li a:hover{
-color: ffffff;
-padding-left: 10px;
-}
+
 
 
 
