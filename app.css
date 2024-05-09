@@ -43,20 +43,25 @@ h3{
 }
 
 
-nav ul{
-    display: flex; 
+#menup .menu ul{
+    display: flex;
+    text-decoration: none;
     justify-content: space-between;
 }
 
-nav a{
+#menup .menu a{
     text-decoration: none;
+    
 }
 
-nav a:hover{
+#menup .menu a:hover{
     background-color: aqua;
     box-shadow: 0px 0px 4px black;
 }
 
+#menup .menu li{
+    list-style: none;
+}
 
 
 
@@ -142,14 +147,18 @@ display: flex;
 
 
 
-.footer{
+.footer {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+justify-content: space-between;
+
 }
 
-.navf li a{
+.navf a{
    text-decoration: none;
+}
+
+.navf li{
+    list-style: none;
 }
  
 
