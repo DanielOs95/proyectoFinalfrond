@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 
 body{
 justify-content: center;
@@ -67,6 +71,7 @@ h3{
 
 .hero{
    width: 100%;
+   text-align: center;
 
 }
 
@@ -163,9 +168,22 @@ justify-content: space-between;
  
 
 
+button{
+    background-color: green;
+    
+    padding: 5px;
+    border: none;
+   position: inherit;
+}
 
+button:hover{
+    background-color: chartreuse;
+    
+}
 
-
+/*.container{
+    border-radius: 10px;
+}*/
 
 
 
@@ -182,9 +200,3 @@ generales
 * Reescribir colores 
 
 * Productos 
-/*justify-content: center;
-    margin-right: 10px;
-    justify-content: center; display: flex;
-    text-align: center;
-    margin-bottom: 100px;
-    margin-left: 10px;
