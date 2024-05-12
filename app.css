@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-size: 62.5;
 }
 
 
@@ -17,12 +18,7 @@ header{
 
 
 span{
-    color: blue;
-}
-
-
-html{
-    font-size: 62.5;
+    color: #037BC0;
 }
 
 
@@ -70,48 +66,63 @@ h3{
 
 
 .hero{
-   width: 100%;
-   text-align: center;
+    background-image: url(principal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     height: 400px;
+}
 
+@media screen and (max-width: 768px){
+    .hero{
+        width: 25rem;
+    }
 }
 
 
 
 
 
-#producto1 .container{
-display: flex;
-}
 
-#producto1 .texto{
-    width: 30%;
+ #producto1 .container{
+    display: flex;
+    background-size: cover;
+ }   
+ 
+ .image{
+   
+ }
+
+ .text{
     text-align: center;
+    padding-left: 30px;
     background-color: blue;
-}
-
-#producto1 .imagen{
-    width: 70%;
-    height: auto;
-}
-
-
+    padding-right: 30px;
+ }
 
 
 #section2 .container{
     display: flex;
     text-align: center;
     column-gap: 30px;
-    justify-content: center;
-}
+    justify-content: center
+    
+    
 
-#section2 .card1{
+}
+#section2 .texto{
     background-color: blue;
+    padding-block-end: 10px;
+    border-radius: 10px 10px 1px 1px;
 }
 
-#section2 .card2{
-    background-color: blue;
-}
+@media screen and(max-width: 500px) {
+    .card1, .card2{
+        flex-direction: column;
+        
 
+     }
+ }
 
 
 
@@ -120,21 +131,20 @@ display: flex;
  text-align: center;
  column-gap: 20px;
  justify-content: center;
+ width: auto;
 }
 
-#section3 .card1{
+#section3 .texto{
     background-color: blue;
-}
-
-#section3 .card2{
-    background-color: blue;
-}
-
-#section3 .card3{
-    background-color: blue;
+    padding-block-end: 10px;
+    border-radius: 10px 10px 1px 1px;
 }
 
 
+
+
+
+    
 
 
 
@@ -142,6 +152,7 @@ display: flex;
     display: flex;
     column-gap: 20px;
     justify-content: center;
+    width: auto;
 }
 
 #categorias .categories{
@@ -155,11 +166,13 @@ display: flex;
 .footer {
     display: flex;
 justify-content: space-between;
+text-align: center;
 
 }
 
 .navf a{
    text-decoration: none;
+ color: black;
 }
 
 .navf li{
@@ -168,22 +181,20 @@ justify-content: space-between;
  
 
 
-button{
-    background-color: green;
-    
+.boton{
+    background-color: forestgreen;
+    border-radius: 10px;
     padding: 5px;
     border: none;
-   position: inherit;
 }
 
 button:hover{
     background-color: chartreuse;
-    
 }
 
-/*.container{
-    border-radius: 10px;
-}*/
+
+    
+
 
 
 
