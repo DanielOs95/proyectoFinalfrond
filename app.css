@@ -45,7 +45,6 @@ h3{
 
 #menup .menu ul{
     display: flex;
-    text-decoration: none;
     justify-content: space-between;
 }
 
@@ -61,6 +60,41 @@ h3{
 
 #menup .menu li{
     list-style: none;
+}
+
+ .icon-menu img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+
+.icon-menu, #check{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+
+.checkbutton {
+   display: block;
+}
+
+.icon-menu{
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#menup .menu ul{
+    display: block;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    right: 0;
+
+}
+
 }
 
 
@@ -116,13 +150,15 @@ h3{
     border-radius: 10px 10px 1px 1px;
 }
 
-@media screen and(max-width: 500px) {
-    .card1, .card2{
-        flex-direction: column;
-        
-
+@media screen and(max-width: 768px) {
+    #section2 .container{
+        display: block;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        right: 0;
      }
- }
+ } 
 
 
 
