@@ -1,4 +1,6 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-size: 62.5;
 }
@@ -16,18 +18,9 @@ header{
     text-align: center;
 }
 
-
 span{
     color: #037BC0;
 }
-
-
-
-body{
-
-}
-
-
 
 
 h1{
@@ -42,9 +35,7 @@ h3{
     font-size: 4rem;
 }
 
-.container-fluid ul, a, li{
-    justify-content: space-between;
-}
+
 .hero{
     background-image: url(principal.jpg);
     background-size: cover;
@@ -56,93 +47,118 @@ h3{
 @media screen and (max-width: 768px){
     .hero{
         width: 25rem;
-       margin-left: 45px;
+        margin-left: 30px;
+      
     }
 }
 
 
+ /*section 1*/
 
-
-
-
- #producto1 .container{
+#section1 .card-container{
     display: flex;
-    background-size: cover;
- }   
- 
- 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
 
- .text{
+#section1 .card{
+    width: 945px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#section1 .card-content{
+   background-color: blue;
     text-align: center;
-    padding-left: 30px;
-    background-color: blue;
-    padding-right: 30px;
- }
+    padding-block-end: 15px;
+}
+
+@media screen and (max-width: 768px){
+    #section1 .card{
+        width: 350px;
+    }
+    #section1 .card-content{
+        width: 350px;
+    }
+}
 
 
+/*section 2*/
 
- #section2 .container{
+#section2 .card-container{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section2 .card{
+    width: 545px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#section2 .card-content{
+    padding: 16px;
+    background-color: blue;
     text-align: center;
-    column-gap: 30px;
-    justify-content: center
 }
 
-
-
-#section2 .texto{
-    background-color: blue;
-    padding-block-end: 10px;
-    border-radius: 10px 10px 1px 1px;
+@media screen and (max-width: 768px){
+    #section2 .card{
+        width: 350px;
+    }
 }
-
-@media screen and(max-width: 768px) {
-    #section2 .container{
-        display: block;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        right: 0;
-     }
- } 
-
-
-
-#section3 .container{
- display: flex;
- text-align: center;
- column-gap: 20px;
- justify-content: center;
- width: auto;
-}
-
-#section3 .texto{
-    background-color: blue;
-    padding-block-end: 10px;
-    border-radius: 10px 10px 1px 1px;
-}
-
-
-
-
 
     
+/*section 3*/
+
+#section3 .card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section3 .card{
+    width: 350px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+#section3 .card-content{
+    padding: 16px;
+    background-color: blue;
+    text-align: center;
+}
 
 
+    /*Categorias*/
 
 #categorias .container{
+    
     display: flex;
-    column-gap: 20px;
+    column-gap: 40px;
     justify-content: center;
-    width: auto;
-}
-
-#categorias .categories{
     text-align: center;
-    text-decoration: none;
+    border-radius: 10px;
 }
 
+#categorias img:hover{
+transform: scale(1.2);
+}
 
+@media screen and (max-width: 768px){
+    #categorias .container{
+        flex-wrap: wrap;
+
+    }
+}
+    
 
 
 .footer {
@@ -154,14 +170,19 @@ text-align: center;
 
 .navf a{
    text-decoration: none;
- color: black;
+ color: salmon;
 }
 
 .navf li{
     list-style: none;
 }
  
+.navf a:hover{
+   
+  color: rgb(148, 143, 188);
+ }
 
+/*buttons*/
 
 .boton{
     background-color: forestgreen;
@@ -186,10 +207,10 @@ button:hover{
 
 
 
-generales
+/*generales
 
 * Media Query
 
 * Reescribir colores 
 
-* Productos 
+* Productos */
