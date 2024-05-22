@@ -48,9 +48,24 @@ h3{
 @media screen and (max-width: 768px){
     .hero{
         width: 25rem;
-        margin-left: 60px;
-      
+        margin-left: 50px;
+        
     }
+}
+
+
+/*menu Navbar*/
+
+#navbarScroll li{
+    padding-right: 80px;
+}
+
+#navbarScroll a:hover{
+    color: cornflowerblue;
+}
+
+.navbar-toggler:hover{
+    background-color: gray;
 }
 
 
